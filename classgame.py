@@ -17,7 +17,7 @@ class human:
             try:
                 number = int(number)
                 if number <= 0 or number>= 10:
-                    print("Вы вели неправильное значение. Повоторите пожалуйста")
+                    print("Вы вели неправильное значение. Повторите пожалуйста")
                     return human.human_input()
                 else:
                     try:
@@ -118,7 +118,7 @@ def chek_human():
         try:
             enter_number = int(enter_number)
             if enter_number <= 0 or enter_number>= 3:
-                print("Вы вели неправильное значение. Повоторите пожалуйста")
+                print("Вы вели неправильное значение. Повторите пожалуйста")
                 return chek_human()
             else:return enter_number
         except ValueError:
