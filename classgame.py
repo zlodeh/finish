@@ -131,8 +131,7 @@ if __name__ == '__main__':
     print("Если хотите играть против PC введите 1.\n Если 2 игрока введите 2")
     variant_play = chek_human()
     if variant_play == 1:
-        print("Вы выбриали игру против PC")
-        igra.game.draw_board()
+        print("Вы выбриали игру против PC. PC ходит X")
         igra.intelect_game()
     elif variant_play == 2:
         print("Добро пожаловать в игру Х и 0 \n Кем будете ходить? 0 (ведите - 0), Х (ведите - X) или вариант Random(ведите - random)? ")
